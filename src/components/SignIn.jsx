@@ -25,7 +25,7 @@ const SignIn = ({ toggle, close }) => {
 
   return (
     <div className="dark:bg-slate-800 max-w-[400px] w-[95%] p-6 max-custom-sm:w-[280px] bg-white rounded-lg shadow-lg transform transition duration-300 hover:shadow-2xl mx-auto relative">
-      {/* Cancel Button */}
+  
       <button
         onClick={close}
         className="absolute top-4 right-4 p-2 rounded-full bg-gray-300"
@@ -36,7 +36,7 @@ const SignIn = ({ toggle, close }) => {
         />
       </button>
 
-      {/* Header */}
+   
       <div className="flex flex-col gap-3 mb-6 dark:text-white">
         <h2 className="text-center text-2xl md:text-3xl font-bold text-blue-600 dark:text-white">
           Sign In
@@ -49,7 +49,7 @@ const SignIn = ({ toggle, close }) => {
         </p>
       </div>
 
-      {/* Form */}
+  
       <form action="#" onSubmit={handleForm}>
         <div className="flex flex-col gap-5">
           <input
@@ -87,7 +87,7 @@ const SignIn = ({ toggle, close }) => {
         </button>
       </form>
 
-      {/* Footer */}
+
       <p className="mt-4 text-center text-gray-600 dark:text-white text-sm">
         Don't have an account?{" "}
         <a
